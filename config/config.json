@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "NEXA",
+    "password": "NEXA",
+    "database": "clinic",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "NEXA",
+    "password": "NEXA",
+    "database": "clinic",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+     "username": "NEXA",
+    "password": "NEXA",
+    "database": "clinic",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
