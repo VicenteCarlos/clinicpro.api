@@ -45,10 +45,10 @@ export class Professional extends Model<Professional> {
   public working_hours: any;
 
   @CreatedAt
-  @Column({ field: 'created_at', type: DataType.DATE })
+  @Column({ type: DataType.DATE })
   declare public createdAt: Date;
 
   @UpdatedAt
-  @Column({ field: 'updated_at', type: DataType.DATE })
+  @Column({ type: DataType.DATE })
   declare public updatedAt: Date;
 }
